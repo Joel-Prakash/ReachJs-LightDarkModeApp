@@ -1,0 +1,131 @@
+@media (min-width: 768px) {
+  .divLight {
+    height: 30vh;
+    width: 50vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #ffffff;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divDark {
+    height: 30vh;
+    width: 50vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #000000;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headingLight {
+    color: #000000;
+    font-size: 40px;
+    font-family: Roboto;
+  }
+
+  .headingDark {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Roboto;
+  }
+
+  .buttonLight {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+  }
+
+  .buttonDark {
+    color: #000000;
+    background-color: #dbcbca;
+    font-family: Roboto;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .divLight {
+    height: 50vh;
+    width: 80vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #ffffff;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divDark {
+    height: 50vh;
+    width: 80vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #000000;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headingLight {
+    color: #000000;
+    font-size: 25px;
+    font-family: Roboto;
+  }
+
+  .headingDark {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Roboto;
+  }
+
+  .buttonLight {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+  }
+
+  .buttonDark {
+    color: #000000;
+    background-color: #dbcbca;
+    font-family: Roboto;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+  }
+}
